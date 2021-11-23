@@ -24,16 +24,15 @@ pub struct Search {
     pub time_to_max: f64,
     #[serde(rename = "tt200m")]
     pub time_to_200m: f64,
-    pub  last_imported_at: Option<String>,
+    pub last_imported_at: Option<String>,
     pub last_changed_at: Option<String>,
     pub registered_at: Option<String>,
-    pub  updated_at: Option<String>,
+    pub updated_at: Option<String>,
 }
 
 pub fn search(query: &str) -> Result<Vec<Search>, reqwest::Error> {
     let base = "https://api.wiseoldman.net/players/search";
     let url = format!("{}?username={}", base, query);
-    println!("request to {}", url);
     let body: Vec<Search> = reqwest::blocking::get(&url)?.json()?;
     Ok(body)
 }

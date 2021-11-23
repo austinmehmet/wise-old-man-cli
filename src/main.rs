@@ -1,4 +1,8 @@
-#[macro_use] extern crate prettytable;
+#[macro_use]
+extern crate prettytable;
+extern crate clap;
+
+use clap::{App, AppSettings, Arg, SubCommand};
 
 mod achievements;
 mod api;
@@ -10,9 +14,6 @@ mod players;
 mod records;
 mod search;
 mod snapshots;
-
-extern crate clap;
-use clap::{App, AppSettings, Arg, SubCommand};
 
 fn main() {
     let matches = App::new("Wise Old Man CLI")
@@ -33,6 +34,7 @@ fn main() {
         .subcommand(
             SubCommand::with_name("players")
                 .about("Find data relating to a specific player")
+                .setting(AppSettings::SubcommandRequiredElseHelp)
                 .arg(
                     Arg::with_name("username")
                         .long("username")
@@ -40,13 +42,14 @@ fn main() {
                         .takes_value(true)
                         .required(true),
                 )
-                .subcommand(SubCommand::with_name("stats"))
+                .subcommand(SubCommand::with_name("stats").about("Retrieves a players stats"))
                 .subcommand(
                     SubCommand::with_name("competitions")
                         .about("Retrieves player competition data"),
                 )
                 .subcommand(
-                    SubCommand::with_name("achievements").about("Retrieves player achievements data"),
+                    SubCommand::with_name("achievements")
+                        .about("Retrieves player achievements data"),
                 )
                 .subcommand(
                     SubCommand::with_name("snapshots").about("Retrieves player snapshot data"),
@@ -102,25 +105,3 @@ fn main() {
         names::handle(matches)
     }
 }
-
-/*
-players command
-    /players/search
-    GET/players/username/:username
-    /players/username/:username/competitions
-    /players/username/:username/achievements
-    /players/username/:username/achievements/progress
-    /players/username/:username/snapshots
-    /players/username/:username/gained
-    /players/username/:username/records
-    /players/username/:username/names
-
-competitions command
-    GET/competitions
-        ?title
-        metric	 Optional
-        type	 Optional
-        status	 Optional
-        limit	 Optional (Default is 20)
-        offset	Optional (Default is 0)
-*/
