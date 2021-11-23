@@ -1,0 +1,434 @@
+{
+  "exp": 159266293,
+  "id": 74940,
+  "username": "poweron6",
+  "displayName": "Poweron6",
+  "type": "regular",
+  "build": "main",
+  "country": null,
+  "flagged": false,
+  "ehp": 434.94152,
+  "ehb": 3.76667,
+  "ttm": 578.25106,
+  "tt200m": 13089.4787,
+  "lastImportedAt": "2021-01-11T23:26:42.499Z",
+  "lastChangedAt": "2021-11-19T19:01:14.365Z",
+  "registeredAt": "2020-11-05T05:09:03.246Z",
+  "updatedAt": "2021-11-19T19:01:14.988Z",
+  "combatLevel": 120,
+  "latestSnapshot": {
+    "createdAt": "2021-11-19T19:01:14.997Z",
+    "importedAt": null,
+    "overall": {
+      "rank": 131840,
+      "experience": 159266293,
+      "ehp": 434.94152
+    },
+    "attack": {
+      "rank": 341234,
+      "experience": 6875528,
+      "ehp": 18.19708
+    },
+    "defence": {
+      "rank": 306635,
+      "experience": 6565856,
+      "ehp": 9.37979
+    },
+    "strength": {
+      "rank": 361423,
+      "experience": 13036436,
+      "ehp": 34.30641
+    },
+    "hitpoints": {
+      "rank": 365664,
+      "experience": 12113692,
+      "ehp": 0.06057
+    },
+    "ranged": {
+      "rank": 386173,
+      "experience": 9685549,
+      "ehp": 8.20809
+    },
+    "prayer": {
+      "rank": 130166,
+      "experience": 5372444,
+      "ehp": 2.98469
+    },
+    "magic": {
+      "rank": 152811,
+      "experience": 13676846,
+      "ehp": 0.06838
+    },
+    "cooking": {
+      "rank": 31519,
+      "experience": 15889289,
+      "ehp": 19.00788
+    },
+    "woodcutting": {
+      "rank": 54769,
+      "experience": 13208139,
+      "ehp": 71.82633
+    },
+    "fletching": {
+      "rank": 122578,
+      "experience": 13036877,
+      "ehp": 0.06518
+    },
+    "fishing": {
+      "rank": 172207,
+      "experience": 5902925,
+      "ehp": 48.02719
+    },
+    "firemaking": {
+      "rank": 184638,
+      "experience": 13034606,
+      "ehp": 19.49701
+    },
+    "crafting": {
+      "rank": 187099,
+      "experience": 3645116,
+      "ehp": 14.96258
+    },
+    "smithing": {
+      "rank": 298164,
+      "experience": 1408543,
+      "ehp": 4.53933
+    },
+    "mining": {
+      "rank": 81573,
+      "experience": 6524987,
+      "ehp": 64.4273
+    },
+    "herblore": {
+      "rank": 243698,
+      "experience": 2028481,
+      "ehp": 6.19882
+    },
+    "agility": {
+      "rank": 420771,
+      "experience": 997148,
+      "ehp": 22.11168
+    },
+    "thieving": {
+      "rank": 484674,
+      "experience": 754933,
+      "ehp": 10.06945
+    },
+    "slayer": {
+      "rank": 235955,
+      "experience": 6005037,
+      "ehp": 80.18202
+    },
+    "farming": {
+      "rank": 275832,
+      "experience": 3666468,
+      "ehp": 6.44575
+    },
+    "runecrafting": {
+      "rank": 230365,
+      "experience": 819057,
+      "ehp": 3.85902
+    },
+    "hunter": {
+      "rank": 364748,
+      "experience": 1023117,
+      "ehp": 4.17124
+    },
+    "construction": {
+      "rank": 83429,
+      "experience": 3995219,
+      "ehp": 4.54279
+    },
+    "league_points": {
+      "rank": -1,
+      "score": -1
+    },
+    "bounty_hunter_hunter": {
+      "rank": -1,
+      "score": -1
+    },
+    "bounty_hunter_rogue": {
+      "rank": -1,
+      "score": -1
+    },
+    "clue_scrolls_all": {
+      "rank": 409672,
+      "score": 41
+    },
+    "clue_scrolls_beginner": {
+      "rank": -1,
+      "score": -1
+    },
+    "clue_scrolls_easy": {
+      "rank": 959562,
+      "score": 1
+    },
+    "clue_scrolls_medium": {
+      "rank": 768622,
+      "score": 2
+    },
+    "clue_scrolls_hard": {
+      "rank": 300335,
+      "score": 35
+    },
+    "clue_scrolls_elite": {
+      "rank": 280715,
+      "score": 3
+    },
+    "clue_scrolls_master": {
+      "rank": -1,
+      "score": -1
+    },
+    "last_man_standing": {
+      "rank": -1,
+      "score": -1
+    },
+    "soul_wars_zeal": {
+      "rank": -1,
+      "score": -1
+    },
+    "abyssal_sire": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "alchemical_hydra": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "barrows_chests": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "bryophyta": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "callisto": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "cerberus": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "chambers_of_xeric": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "chambers_of_xeric_challenge_mode": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "chaos_elemental": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "chaos_fanatic": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "commander_zilyana": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "corporeal_beast": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "crazy_archaeologist": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "dagannoth_prime": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "dagannoth_rex": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "dagannoth_supreme": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "deranged_archaeologist": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "general_graardor": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "giant_mole": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "grotesque_guardians": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "hespori": {
+      "rank": 265148,
+      "kills": 12,
+      "ehb": 0
+    },
+    "kalphite_queen": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "king_black_dragon": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "kraken": {
+      "rank": 236927,
+      "kills": 339,
+      "ehb": 3.76667
+    },
+    "kreearra": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "kril_tsutsaroth": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "mimic": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "nightmare": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "phosanis_nightmare": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "obor": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "sarachnis": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "scorpia": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "skotizo": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "tempoross": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "the_gauntlet": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "the_corrupted_gauntlet": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "theatre_of_blood": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "theatre_of_blood_hard_mode": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "thermonuclear_smoke_devil": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "tzkal_zuk": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "tztok_jad": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "venenatis": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "vetion": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "vorkath": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "wintertodt": {
+      "rank": 214881,
+      "kills": 287,
+      "ehb": 0
+    },
+    "zalcano": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "zulrah": {
+      "rank": -1,
+      "kills": -1,
+      "ehb": 0
+    },
+    "ehp": {
+      "rank": 65347,
+      "value": 434.94152
+    },
+    "ehb": {
+      "rank": 119941,
+      "value": 3.76667
+    }
+  }
+}

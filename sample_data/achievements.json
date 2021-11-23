@@ -1,0 +1,74 @@
+[
+  {
+    "threshold": 13034431,
+    "playerId": 74940,
+    "name": "99 Magic",
+    "metric": "magic",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "measure": "experience"
+  },
+  {
+    "threshold": 13034431,
+    "playerId": 74940,
+    "name": "99 Cooking",
+    "metric": "cooking",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "measure": "experience"
+  },
+  {
+    "threshold": 13034431,
+    "playerId": 74940,
+    "name": "99 Fletching",
+    "metric": "fletching",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "measure": "experience"
+  },
+  {
+    "threshold": 13034431,
+    "playerId": 74940,
+    "name": "99 Woodcutting",
+    "metric": "woodcutting",
+    "createdAt": "2020-11-15T08:29:03.000Z",
+    "measure": "experience"
+  },
+  {
+    "threshold": 13034431,
+    "playerId": 74940,
+    "name": "99 Strength",
+    "metric": "strength",
+    "createdAt": "2020-11-24T23:52:11.385Z",
+    "measure": "experience"
+  },
+  {
+    "threshold": 13034431,
+    "playerId": 74940,
+    "name": "99 Firemaking",
+    "metric": "firemaking",
+    "createdAt": "2020-12-29T03:36:41.662Z",
+    "measure": "experience"
+  },
+  {
+    "threshold": 273742,
+    "playerId": 74940,
+    "name": "Base 60 Stats",
+    "metric": "overall",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "measure": "levels"
+  },
+  {
+    "threshold": 100000000,
+    "playerId": 74940,
+    "name": "100m Overall Exp.",
+    "metric": "overall",
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "measure": "experience"
+  },
+  {
+    "threshold": 737627,
+    "playerId": 74940,
+    "name": "Base 70 Stats",
+    "metric": "overall",
+    "createdAt": "2021-11-19T19:01:14.997Z",
+    "measure": "levels"
+  }
+]
