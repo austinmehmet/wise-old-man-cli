@@ -90,7 +90,7 @@ pub struct Player {
     pub last_changed_at: Option<String>,
     pub registered_at: Option<String>,
     pub updated_at: Option<String>,
-    pub combat_level: i32,
+    pub combat_level: Option<i32>,
     pub latest_snapshot: Snapshot,
 }
 

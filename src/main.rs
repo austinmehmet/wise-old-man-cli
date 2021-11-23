@@ -60,13 +60,13 @@ fn main() {
                     SubCommand::with_name("names").about("Retrieves previous player names"),
                 ),
         )
-        .subcommand(SubCommand::with_name("competitions").about(""))
-        .subcommand(SubCommand::with_name("groups").about(""))
-        .subcommand(SubCommand::with_name("deltas").about(""))
-        .subcommand(SubCommand::with_name("snapshots").about(""))
-        .subcommand(SubCommand::with_name("records").about(""))
-        .subcommand(SubCommand::with_name("achievements").about(""))
-        .subcommand(SubCommand::with_name("names").about(""))
+        .subcommand(SubCommand::with_name("competitions").about("Get competition information. A competition is a comparison of a group of players' deltas, for a specific metric, within a specific time range"))
+        .subcommand(SubCommand::with_name("groups").about("Get groups - a list of players, with roles for each player"))
+        .subcommand(SubCommand::with_name("deltas").about("Get deltas - a representation of the difference between snapshots of a specific player. This can be used to calculate the player's gained experience/score/kills in any metric and/or time period, check a player's progress in a competition and generate records for the player (if new delta is higher than record, update record)"))
+        .subcommand(SubCommand::with_name("snapshots").about("Get snapshots - a representation of a player's account stats at any given point in time, this currently includes the experience/score/kills and ranks of all the metrics"))
+        .subcommand(SubCommand::with_name("records").about("Get records - a representation of a player's absolute best deltas for a specific period and metric"))
+        .subcommand(SubCommand::with_name("achievements").about("Get achievments - representation of a milestone in the player's progression"))
+        .subcommand(SubCommand::with_name("names").about("Get player name change data"))
         .get_matches();
 
     if let Some(matches) = matches.subcommand_matches("search") {
