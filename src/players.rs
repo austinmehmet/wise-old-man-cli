@@ -4,7 +4,8 @@ use prettytable::Table;
 
 pub fn handle(matches: &ArgMatches) {
     if let Some(_matches) = matches.subcommand_matches("stats") {
-        let player = api::get_player("poweron6").unwrap();
+        let username = matches.value_of("username").unwrap();
+        let player = api::get_player(username).unwrap();
         println!("For: {}", player.username);
         let mut table = Table::new();
         table.add_row(row!["Skill", "Level", "Experience", "Rank"]);

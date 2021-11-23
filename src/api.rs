@@ -71,7 +71,7 @@ pub struct Snapshot {
 #[derive(Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
 pub struct Player {
-    pub exp: i32,
+    pub exp: i64,
     pub id: i32,
     pub username: String,
     pub display_name: String,
